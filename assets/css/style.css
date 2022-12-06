@@ -9,6 +9,20 @@ body {
   line-height: 1.5;
 }
 
+header {
+  padding: 0 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* header h1 {
+  justify-content: flex-start;
+}
+
+header a {
+  justify-content: flex-end;
+} */
+
 h1,
 h2,
 h3,
