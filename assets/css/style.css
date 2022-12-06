@@ -22,6 +22,15 @@ p {
   margin: 0;
 }
 
+.hero-banner {
+  height: 150px;
+  width: 100%;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #one, #two, #three, #four, #five {
   background-repeat: no-repeat;
   background-size: cover;
