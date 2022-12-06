@@ -12,6 +12,10 @@ N/A
 
 The page can be accessed using the following link:
 
+https://guilhfreitas.github.io/guilh-portfolio/
+
+![A screenshot of the page](assets/images/screenshot.jpg)
+
 Clicking the examples in the portfolio will take you to the respective repository.
 
 ## Credits
