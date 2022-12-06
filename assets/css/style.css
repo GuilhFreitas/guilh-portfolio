@@ -1,5 +1,12 @@
+:root {
+  --primary-color: #1D3461;
+  --secondary-color: #E84855;
+  --tertiary-color: #74A4BC;
+}
+
 * {
   box-sizing: border-box;
+  color: var(--primary-color);
 }
 
 body {
@@ -8,20 +15,6 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
-
-header {
-  padding: 0 5vw;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* header h1 {
-  justify-content: flex-start;
-}
-
-header a {
-  justify-content: flex-end;
-} */
 
 h1,
 h2,
@@ -34,6 +27,27 @@ h6 {
 
 p {
   margin: 0;
+}
+
+header {
+  background-color: var(--tertiary-color);
+  padding: 0 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1, h3, #red {
+  background-color: var(--secondary-color);
+}
+
+nav a{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+
+h3, #red {
+  display: inline-block;
 }
 
 .hero-banner {
