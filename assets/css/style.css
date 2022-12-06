@@ -59,6 +59,13 @@ h3, #red {
   background-size: cover;
 }
 
+.hero-banner div {
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 #one, #two, #three, #four, #five {
   background-repeat: no-repeat;
   background-size: cover;
